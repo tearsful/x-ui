@@ -89,7 +89,9 @@
       },
       {
         "domain": [
-          "geosite:cn"
+          "geosite:cn",
+          "geosite:category-ads",
+          "geosite:category-ads-all"
         ],
         "outboundTag": "blocked",
         "type": "field"
@@ -120,7 +122,6 @@
         "type": "field",
         "outboundTag": "wireguard-warp",
         "domain": [
-          "geosite:openai",
           "domain:sentry.io"
         ]
       },
